@@ -43,7 +43,7 @@ public class Cliente {
 	 */
 	@Override
 	public String toString() {
-		return "Cliente: "+getNome() +"-"+"Idade: "+getIdade();
+		return "Cliente: "+getNome() +" "+"Idade: " +getIdade();
 	}
 
 }
